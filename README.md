@@ -7,13 +7,13 @@ Using PageSpeed Insights, I verified the `index.html` page is optimized above th
 ### Using This App
 For the section of the project regarding `index.html`:
 
-* To view the PageSpeed information for the `index.html` file, navigate your browser to the [PageSpeed Insights page](https://developers.google.com/speed/pagespeed/insights/) and enter the location of the `index.html` file from GitHub Pages (http://niassa.github.io/frontend-nanodegree-mobile-portfolio-master/index.html).
+* To view the PageSpeed information for the `index.html` file, navigate your browser to the [PageSpeed Insights page](https://developers.google.com/speed/pagespeed/insights/) and enter the location of the `index.html` file from GitHub Pages (http://niassa.github.io/frontend-nanodegree-mobile-portfolio/index.html).
 * Select the **Analyze** button to run the analysis.
 * Switch between the **Mobile** and **Desktop** tabs to view the optimization records for their respective counterparts.
 
 For the section of the project regarding `pizza.html` and `main.js`:
 
-* To view the PageSpeed information for the `pizza.html` file, navigate your browser to the [PageSpeed Insights page](https://developers.google.com/speed/pagespeed/insights/) and enter the location of the `pizza.html` file from GitHub Pages (http://niassa.github.io/frontend-nanodegree-mobile-portfolio-master/views/pizza.html).
+* To view the PageSpeed information for the `pizza.html` file, navigate your browser to the [PageSpeed Insights page](https://developers.google.com/speed/pagespeed/insights/) and enter the location of the `pizza.html` file from GitHub Pages (http://niassa.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html).
 * Select the **Analyze** button to run the analysis.
 * Switch between the **Mobile** and **Desktop** tabs to view the optimization records for their respective counterparts.
 
