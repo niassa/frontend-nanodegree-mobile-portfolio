@@ -460,8 +460,8 @@ changePizzaSizes(size);
 window.performance.mark("mark_start_generating"); // collect timing data
 
 // This for-loop actually creates and appends all of the pizzas when the page loads
+var pizzasDiv = document.getElementById("randomPizzas");
 for (var i = 2; i < 100; i++) {
-  var pizzasDiv = document.getElementById("randomPizzas");
   pizzasDiv.appendChild(pizzaElementGenerator(i));
 }
 
@@ -509,7 +509,7 @@ function updatePositions() {
   // This generates the same six values which were always repeating in the
   // longer loop, and places them in `constArray`, which holds these six
   // constant, repeating values:
-  for (i = 0; i < 6; i++) {
+  for (i = 0; i < 5; i++) {
     constArray.push(Math.sin((scrollTop / 1250) + i));
   }
 
@@ -536,7 +536,8 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  var pizzasToDraw = (window.innerHeight / 50) + (window.innerWidth / 50);
+  var rows = (window.innerHeight / s);
+  var pizzasToDraw = rows * cols;
   
   for (var i = 0; i < pizzasToDraw; i++) {
     var elem = document.createElement('img');
