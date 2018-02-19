@@ -7,13 +7,13 @@ Using PageSpeed Insights, I verified the `index.html` page is optimized above th
 ### Using This App
 For the section of the project regarding `index.html`:
 
-* To view the PageSpeed information for the `index.html` file, navigate your browser to the [PageSpeed Insights page](https://developers.google.com/speed/pagespeed/insights/) and enter the location of the `index.html` file from GitHub Pages (http://niassa.github.io/frontend-nanodegree-mobile-portfolio/index.html).
+* To view the PageSpeed information for the `index.html` file, navigate your browser to the [PageSpeed Insights page](https://developers.google.com/speed/pagespeed/insights/) and enter the location of the `index.html` file from GitHub Pages (http://niassa.github.io/frontend-nanodegree-mobile-portfolio-master/index.html).
 * Select the **Analyze** button to run the analysis.
 * Switch between the **Mobile** and **Desktop** tabs to view the optimization records for their respective counterparts.
 
 For the section of the project regarding `pizza.html` and `main.js`:
 
-* To view the PageSpeed information for the `pizza.html` file, navigate your browser to the [PageSpeed Insights page](https://developers.google.com/speed/pagespeed/insights/) and enter the location of the `pizza.html` file from GitHub Pages (http://niassa.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html).
+* To view the PageSpeed information for the `pizza.html` file, navigate your browser to the [PageSpeed Insights page](https://developers.google.com/speed/pagespeed/insights/) and enter the location of the `pizza.html` file from GitHub Pages (http://niassa.github.io/frontend-nanodegree-mobile-portfolio-master/views/pizza.html).
 * Select the **Analyze** button to run the analysis.
 * Switch between the **Mobile** and **Desktop** tabs to view the optimization records for their respective counterparts.
 
@@ -47,6 +47,8 @@ This is where the majority of the work performed for this project occurred.
   * Changed the `querySelectorAll` methods to the more efficient `getElementsByClassName` methods instead
   * Borrowed an idea from a Udacity forum post \(that I can't seem to find again and forgot to bookmark it!\) that linked to a github repo with information and ideas on leveraging caching in an array
 * I then minified the code into a new file \(`main.min.js`\) and called that file in `views/pizza.html` instead of the original `main.js`.
+* Moved the `pizzasDiv` variable outside of the for loop as it only needs to be defined once.
+* Updated `document.addEventListener('DOMContentLoaded', function()` to correctly calculate the number of required pizzas based on calculating rows.
 
 #### All Images
 * I web optimized the images in the `images` folder to reduce their size.
